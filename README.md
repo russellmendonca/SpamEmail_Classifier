@@ -1,31 +1,28 @@
 #Spam Email Classifier
 
 ##File Contents
-ex6.m - Octave/MATLAB script for the rst half of the exercise
-ex6data1.mat - Example Dataset 1
-ex6data2.mat - Example Dataset 2
-ex6data3.mat - Example Dataset 3
-svmTrain.m - SVM training function
-svmPredict.m - SVM prediction function
-plotData.m - Plot 2D data
-visualizeBoundaryLinear.m - Plot linear boundary
-visualizeBoundary.m - Plot non-linear boundary
-linearKernel.m - Linear kernel for SVM
-gaussianKernel.m - Gaussian kernel for SVM
-dataset3Params.m - Parameters to use for Dataset 3
 
-ex6 spam.m - Octave/MATLAB script for the second half of the exer-
-cise
-spamTrain.mat - Spam training set
-spamTest.mat - Spam test set
-emailSample1.txt - Sample email 1
-emailSample2.txt - Sample email 2
-spamSample1.txt - Sample spam 1
-spamSample2.txt - Sample spam 2
-vocab.txt - Vocabulary list
-getVocabList.m - Load vocabulary list
-porterStemmer.m - Stemming function
-readFile.m - Reads a le into a character string
-submit.m - Submission script that sends your solutions to our servers
-processEmail.m - Email preprocessing
-emailFeatures.m - Feature extraction from emails
+#Part 1
+1. ex6.m - Octave/MATLAB script for the first half of the exercise
+2. ex6data1.mat, ex6data2.mat, exdata3.mat - Example Datasets
+3. svmTrain.m - SVM training function
+4. svmPredict.m - SVM prediction function
+5. plotData.m - Plot 2D data
+6. visualizeBoundaryLinear.m - Plot linear boundary
+7. visualizeBoundary.m - Plot non-linear boundary
+8. linearKernel.m - Linear kernel for SVM
+9. gaussianKernel.m - Gaussian kernel for SVM
+10. dataset3Params.m - Parameters to use for Dataset 3
+
+#Part 2
+1. ex6 spam.m - Octave/MATLAB script for the second half of the exercise
+2. spamTrain.mat - Spam training set
+3. spamTest.mat - Spam test set
+4. emailSample1.txt, emailSample2.txt - Sample emails
+5. spamSample1.txt, spamSample2.txt - Sample spams
+6. vocab.txt - Vocabulary list
+7. getVocabList.m - Load vocabulary list
+8. porterStemmer.m - Stemming function
+9. readFile.m - Reads a file into a character string
+10. processEmail.m - Email preprocessing
+11. emailFeatures.m - Feature extraction from emails
