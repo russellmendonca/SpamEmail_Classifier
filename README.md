@@ -5,7 +5,7 @@ ex6.m - Octave/MATLAB script for the rst half of the exercise
 ex6data1.mat - Example Dataset 1
 ex6data2.mat - Example Dataset 2
 ex6data3.mat - Example Dataset 3
-svmTrain.m - SVM rraining function
+svmTrain.m - SVM training function
 svmPredict.m - SVM prediction function
 plotData.m - Plot 2D data
 visualizeBoundaryLinear.m - Plot linear boundary
