@@ -1,11 +1,31 @@
-Automated Snack Delivery Robot
+#Spam Email Classifier
 
-Set Up
- 1. This project is designed for a robot to deliver snacks to users along a straight hallway/passageway. Each user's door has a circle of a unique color on it. 
-2. The robot has a driving motor, a turning motor and two line sensors. A white strip is placed on the ground to demarcate the line on which the robot can move.
+##File Contents
+ex6.m - Octave/MATLAB script for the rst half of the exercise
+ex6data1.mat - Example Dataset 1
+ex6data2.mat - Example Dataset 2
+ex6data3.mat - Example Dataset 3
+svmTrain.m - SVM rraining function
+svmPredict.m - SVM prediction function
+plotData.m - Plot 2D data
+visualizeBoundaryLinear.m - Plot linear boundary
+visualizeBoundary.m - Plot non-linear boundary
+linearKernel.m - Linear kernel for SVM
+gaussianKernel.m - Gaussian kernel for SVM
+dataset3Params.m - Parameters to use for Dataset 3
 
-Basic Functioning 
-1. The snack robot is initially kept at one end of a dorm passageway. A user logs into the robot using ssh (remote-access). 
-2. On receiveng the request, the master program operates the driving motor in the forward direction untill the camera on the bot observes a circle of the appropriate size and color on a particular door. 
-3. While delivering the snack, the line sensing code takes input from the two line sensors.If the robot veers sideways, appropriate corrections are made via the turning motor.
- 4. When the robot comes to a stop infront of the right door, the user is informed that their snack has arrived. After the user collects the snack, the driving motors starts in the reverse direction, taking the robot back to the starting postion.
+ex6 spam.m - Octave/MATLAB script for the second half of the exer-
+cise
+spamTrain.mat - Spam training set
+spamTest.mat - Spam test set
+emailSample1.txt - Sample email 1
+emailSample2.txt - Sample email 2
+spamSample1.txt - Sample spam 1
+spamSample2.txt - Sample spam 2
+vocab.txt - Vocabulary list
+getVocabList.m - Load vocabulary list
+porterStemmer.m - Stemming function
+readFile.m - Reads a le into a character string
+submit.m - Submission script that sends your solutions to our servers
+processEmail.m - Email preprocessing
+emailFeatures.m - Feature extraction from emails
